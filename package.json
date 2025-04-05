@@ -1,0 +1,9 @@
+{
+  "name": "ceng495",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile | Altay Shop</title>
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="profile.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo">Altay Shop</a>
+      <nav id="auth-buttons">
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="section-heading">
+      <h1>My Profile</h1>
+    </div>
+    
+    <div class="profile-container">
+      <div class="profile-header">
+        <h2 id="profile-username" class="profile-username">Loading profile...</h2>
+      </div>
+      
+      <div class="profile-stats">
+        <div class="profile-stat">
+          <div class="profile-stat-value" id="average-rating">0.0</div>
+          <div class="profile-stat-label">Average Rating</div>
+        </div>
+        <div class="profile-stat">
+          <div class="profile-stat-value" id="reviews-count">0</div>
+          <div class="profile-stat-label">Reviews</div>
+        </div>
+      </div>
+      
+      <div class="profile-section">
+        <h3 class="profile-section-title">My Reviews</h3>
+        <div id="user-reviews" class="reviews-container">
+          <p>Loading your reviews...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Altay Shop</p>
+  </footer>
+
+  <script src="profile-script.js"></script>
+</body>
+</html>

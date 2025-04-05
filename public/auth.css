@@ -1,0 +1,67 @@
+.auth-container {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .auth-container h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .auth-form {
+    display: grid;
+    gap: 1.25rem;
+  }
+  
+  .auth-form .form-group {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .auth-form input {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  
+  .auth-form button {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  .auth-links {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .auth-links a {
+    color: var(--secondary);
+    font-weight: 500;
+  }
+  
+  .form-group {
+    display: grid;
+    gap: 0.75rem;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--dark);
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }

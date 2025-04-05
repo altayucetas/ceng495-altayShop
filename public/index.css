@@ -1,0 +1,130 @@
+.section-heading {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  
+  .section-heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.75rem;
+  }
+  
+  .section-heading h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: var(--secondary);
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 280px;
+    background-color: white;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    position: relative;
+  }
+  
+  .card-category {
+    color: var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+  }
+  
+  .card-seller {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color: var(--text);
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 4.8rem;
+  }
+  
+  .card-footer {
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .card-price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--accent);
+  }
+  
+  .card-rating {
+    color: var(--secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .loading {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-light);
+  }
