@@ -87,6 +87,11 @@ The frontend is built using plain HTML, CSS, and JavaScript without any framewor
   - A form to add new products using `/api/items`.
   - A form to register new users using `/api/register`.
 
+### Cloud
+
+The project is deployed on **Vercel**, connected directly to **GitHub** for automatic deployments.  
+Sensitive data like `JWT_SECRET` and `MONGODB_URI` are set as environment variables in Vercel.
+
 ## Users and Roles
 
 The system has three types of users: **Guest (Not Logged In)**, **User**, and **Admin**.
