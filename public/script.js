@@ -65,8 +65,6 @@ function renderItems(items) {
           <div class="card-category">${item.category}</div>
           <h3 class="card-title">${item.name}</h3>
           <p class="card-seller">By ${item.seller}</p>
-          <p class="card-description">${item.description.length > 80 ? 
-            item.description.substring(0, 77) + '...' : item.description}</p>
           <div class="card-footer">
             <span class="card-price">$${item.price}</span>
             <span class="card-rating">★ ${item.rating?.toFixed(1) || '0.0'}</span>
